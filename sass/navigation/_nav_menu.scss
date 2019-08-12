@@ -1,0 +1,11 @@
+
+.nav-link{
+    margin-top:0.1rem;
+    font-size:$font__mobile__friendly_size;
+    color:$main__black;
+    transition:1s all ease-in-out;
+    border-bottom:1px solid transparent;
+}
+.nav-link:hover{
+    border-bottom:1px solid $main__black;
+}
