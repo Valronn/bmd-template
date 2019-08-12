@@ -28,5 +28,44 @@
 /*--------------------------------------------------------------
 # NAVIGATION
 --------------------------------------------------------------*/
+.navbar-toggler {
+  border: none;
+}
+
+.toggler {
+  border: 2px solid #121212;
+  padding: 3px;
+  transition: all 2s ease;
+}
+.toggler .bar-0 {
+  width: 35px;
+  height: 3px;
+  margin: 5px;
+  background: #121212;
+  transition: all 0.5s ease;
+}
+.toggler .bar-1 {
+  width: 35px;
+  height: 3px;
+  margin: 5px;
+  background: #121212;
+  transition: all 0.5s ease;
+}
+.toggler .bar-2 {
+  width: 35px;
+  height: 3px;
+  margin: 5px;
+  background: #121212;
+  transition: all 0.5s ease;
+}
+.toggler .change0 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggler .change1 {
+  opacity: 0;
+}
+.toggler .change2 {
+  transform: rotate(45deg) translate(-5px, -6.5px);
+}
 
 /*# sourceMappingURL=main.css.map */

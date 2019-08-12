@@ -1,0 +1,38 @@
+.navbar-toggler{
+    border:none;
+  }
+.toggler {
+    border: 2px solid $main__black;
+    padding: 3px;
+    transition: all 2s ease;
+    .bar-0 {
+      width: 35px;
+      height: 3px;
+      margin: 5px;
+      background: $main__black;
+      transition: all 0.5s ease;
+    }
+    .bar-1 {
+      width: 35px;
+      height: 3px;
+      margin: 5px;
+      background: $main__black;
+      transition: all 0.5s ease;
+    }
+    .bar-2 {
+      width: 35px;
+      height: 3px;
+      margin: 5px;
+      background: $main__black;
+      transition: all 0.5s ease;
+    }
+    .change0{
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .change1{
+      opacity:0;
+    }
+    .change2{
+      transform: rotate(45deg) translate(-5px, -6.5px);
+    }
+  }
