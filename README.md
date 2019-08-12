@@ -6,7 +6,6 @@ Simple [bootstrap-material-design](https://fezvrasta.github.io/bootstrap-materia
 
 * Simple navbar with custom nav-toggler
 * Header section with customized view-height
-* Main section
-* Footer section
+* Material-icons
 * Sass
 * Jquery file 
